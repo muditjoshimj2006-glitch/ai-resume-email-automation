@@ -24,35 +24,7 @@ An AI-powered FastAPI application that automates resume screening and HR email r
 - JSON
 - dotenv
 
----
 
-## Project Structure
-
-```text
-ai-resume-email-automation/
-│
-├── app/
-│   ├── router/
-│   ├── services/
-│   └── config.py
-│
-├── uploads/
-├── main.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
-```
-
----
-
-## Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/ai-resume-email-automation.git
-```
 
 ### Install Dependencies
 
@@ -116,19 +88,6 @@ Send Email via Gmail SMTP
 }
 ```
 
----
-
-## Future Improvements
-
-- Multiple Resume Upload
-- Batch Resume Processing
-- SQLite/PostgreSQL Integration
-- Resume Scoring Dashboard
-- Background Task Queue
-- Docker Support
-- Cloud Deployment
-
----
 
 ## Author
 
