@@ -53,10 +53,6 @@ async def upload_resume(file: UploadFile = File(...)):
         "error": f"Email sending failed: {str(e)}"
     }
 
-    finally:
-     if os.path.exists(file_path):
-       os.remove(file_path) 
-
 
     return {
         "uploaded": "Resume Uploaded Successfully",
